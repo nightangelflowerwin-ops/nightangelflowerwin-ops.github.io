@@ -1,12 +1,16 @@
 {
   "passed": true,
+  "projects": 29,
+  "skills": 46,
   "checks": [
-    "all three original project cards",
-    "project category filters",
+    "Stephen Shore identity",
+    "29 project records",
+    "46 evidence linked skills",
+    "project search",
+    "category filter",
+    "studied skill filter",
+    "skill link reveals project",
     "390 pixel mobile layout",
-    "page title",
     "no browser errors"
-  ],
-  "publicProjects": 3,
-  "learningForks": 1
+  ]
 }

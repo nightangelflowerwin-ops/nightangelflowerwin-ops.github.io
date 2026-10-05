@@ -1,7 +1,13 @@
-# Chen's portfolio
+# Stephen Shore's portfolio
 
-Public portfolio: https://nightangelflowerwin-ops.github.io/
+Live portfolio: https://nightangelflowerwin-ops.github.io/
 
-A responsive portfolio of public projects, with a live symbol lab demo, repository links and a clearly attributed learning fork. Open index.html in Chrome to preview locally.
+The project catalog includes software, research, prototypes and study work developed with AI assistance. Each skill entry points to the project records that support it. Studied topics are distinguished from skills used in project work. Entries are not certifications or independent mastery claims.
 
-Edit index.html and push to main to update GitHub Pages. Project filters work offline and all visual assets are included in the page. No external fonts, analytics or account credentials are required.
+## Update the portfolio
+
+Edit portfolio.json to add a project or skill with an evidence summary, honest status and public link where one exists. Do not add private file contents, contact details, credentials or personal correspondence. Leave the URL empty when the source is not public.
+
+Run python build.py to rebuild index.html. Push the reviewed changes to main to update GitHub Pages. template.html controls the layout; index.html embeds the catalog and works offline.
+
+A daily local Codex review checks for newly evidenced projects and skills. It adds supported records and publishes verified changes. It stays quiet when nothing meaningful changes. The scheduled review requires the local host and Codex to be available.
