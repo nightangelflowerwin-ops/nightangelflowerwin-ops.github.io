@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "all three original project cards",
+    "project category filters",
+    "390 pixel mobile layout",
+    "page title",
+    "no browser errors"
+  ],
+  "publicProjects": 3,
+  "learningForks": 1
+}
