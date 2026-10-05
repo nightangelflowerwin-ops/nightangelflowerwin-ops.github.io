@@ -1,0 +1,32 @@
+Chapter	Spirit	Rule and limitation	Selenus location
+I	Pamersiel	All word initials, in order.	III.4
+II	Padiel	Alternating significant and idle words, starting significant: 1, 3, 5...	III.5
+III	Camuel	Starts idle, then alternates; word-ending filler can interrupt the alternation.	III.5
+IV	Aseliel	Basic cycle: skip 1, take 2 initials; observe hidden-word terminators.	III.6
+V	Barmiel	Aseliel family, with extra idle material closing each hidden word; not an unconditional fixed cycle.	III.7
+VI	Gediel	Skip 2, take 2 initials.	III.6
+VII	Asiriel	Gediel family, with hidden-word endings changing the idle run.	III.7
+VIII	Maseriel	Skip 3, take 3 initials.	III.6
+IX	Malgaras	Maseriel family, with hidden-word endings changing the idle run.	III.7
+X	Dorothiel	Skip 4, take 4 initials.	III.6
+XI	Usiel	Dorothiel family, with hidden-word endings changing the idle run.	III.7
+XII	Cabariel	Skip 5, take 5 initials.	III.6
+XIII	Raysiel	Cabariel family, with hidden-word endings changing the idle run.	III.7
+XIV	Symiel	Hidden words enclosed by idle words; variable length and word-boundary treatment. Do not reduce to a fixed interval.	III.7
+XV	Armadiel	Take k, skip k; k rises 1 through 8 and descends 7 through 1, then rises again.	III.10, p.73
+XVI	Baruchas	Skip k, take k; same ascending and descending progression as Armadiel.	III.10, pp.73,75
+XVII	Carnesiel	Initial idle line; thereafter one idle word before three significant initials. The key also describes enclosing idle words.	III.8
+XVIII	Caspiel	Two initial idle lines; two idle words and four significant initials.	III.8
+XIX	Amenadiel	Three initial idle lines; three idle words and five significant initials.	III.8
+XX	Demoriel	Four initial idle lines; four idle words and six significant initials.	III.8
+XXI	Geradiel	Transpose adjacent initials: 2,1,4,3,6,5...	III.11, p.77
+XXII	Buriel	Read from the end toward the beginning; skip 1, take 1.	III.9
+XXIII	Hydriel	Read from the end; skip 1, take 2.	III.9
+XXIV	Pyrichiel	Two alternating passes from the end; the second reads the other initials.	III.11, p.79
+XXV	Emoniel	Read from the end; skip 1, take 2, with its associated end/boundary treatment.	III.9
+XXVI	Icosiel	Read from the end; skip 1, take 3.	III.9
+XXVII	Soleviel	From the end, skip 2 and take 2; afterward read the previously idle initials too.	III.11, p.80
+XXVIII	Menadiel	Three passes from the end, skipping two between selections; the passes recover all initials.	III.11, p.80
+XXIX	Macariel	Four backward passes, in fourth, third, second, first position order.	III.11, p.81
+XXX	Uriel	Composite of backward Buriel and forward Camuel. Exact residual-pass alignment needs example verification.	III.11, pp.78-79
+XXXI	Bydiel	From the beginning, skip 2 and take 2; afterward read the remaining initials too.	III.11, p.78

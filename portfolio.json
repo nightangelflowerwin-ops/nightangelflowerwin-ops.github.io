@@ -113,17 +113,17 @@
     },
     {
       "id": "findingwealth",
-      "title": "Finding Wealth Spirit Explorer",
+      "title": "Spirit Summoner and Finding Wealth Explorer",
       "category": "Research",
-      "status": "Research tool",
+      "status": "Live research tool",
       "description": "Interactive dashboard for historical extraction rules and bounded text experiments. No verified decipherment is claimed.",
       "skills": [
         "Text analysis",
         "Source research",
         "HTML and CSS"
       ],
-      "evidence": "Local Finding Wealth package, rules audit and explorer.",
-      "url": null,
+      "evidence": "Published standalone explorer, rules audit and source notes. Historical methods and experimental reconstructions are distinguished.",
+      "url": "https://nightangelflowerwin-ops.github.io/spiritsummoner/",
       "updated": "2026-10-05"
     },
     {
