@@ -99,15 +99,17 @@
       "title": "Gravity Falls Symbol Lab",
       "category": "Research",
       "status": "Live tool",
-      "description": "Offline glyph recognition, image segregation, cipher comparison, historical sources and word level whitepaper review.",
+      "description": "Offline glyph recognition, image segregation and historical source research, with a searchable Unicode catalog of 172,873 public assigned characters across 175 scripts. Catalogued scripts are not automatically identified in the image.",
       "skills": [
         "HTML and CSS",
         "JavaScript",
         "Image analysis",
         "Source research",
-        "Browser testing"
+        "Browser testing",
+        "Unicode data processing",
+        "Source integrity checks"
       ],
-      "evidence": "Public tool, 106 glyph atlas and browser verification report.",
+      "evidence": "Public tool, 106 glyph atlas, Unicode source snapshot with SHA256 hashes and passing browser checks for code point, literal character and range lookup.",
       "url": "https://nightangelflowerwin-ops.github.io/gravityfallssymbollab/",
       "updated": "2026-10-05"
     },
@@ -793,6 +795,15 @@
       "updated": "2026-10-05"
     },
     {
+      "name": "Source integrity checks",
+      "status": "Used in project work",
+      "projects": [
+        "gravity"
+      ],
+      "firstRecorded": "2026-10-05",
+      "updated": "2026-10-05"
+    },
+    {
       "name": "Source research",
       "status": "Used in project work",
       "projects": [
@@ -849,6 +860,15 @@
       "status": "Used in project work",
       "projects": [
         "cultui"
+      ],
+      "firstRecorded": "2026-10-05",
+      "updated": "2026-10-05"
+    },
+    {
+      "name": "Unicode data processing",
+      "status": "Used in project work",
+      "projects": [
+        "gravity"
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-05"
