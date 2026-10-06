@@ -19,7 +19,7 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted implementation on the public feat/market-radar branch. 55 Python tests and 32 JavaScript tests passed; live checks confirmed market snapshots, PumpPortal events and manual stop. Scanner fix submitted upstream at https://github.com/h100envy/gem-search/pull/1; native Brave extension installation and end-to-end scanner testing remain pending. Runs locally; the public link is source code, not a hosted market terminal.",
+      "evidence": "AI-assisted implementation on the public feat/market-radar branch. 65 Python tests and 32 JavaScript tests passed; live checks confirmed market snapshots, PumpPortal events and manual stop. Scanner fix submitted upstream at https://github.com/h100envy/gem-search/pull/1; native Brave extension installation and end-to-end scanner testing remain pending. Runs locally; the public link is source code, not a hosted market terminal. Net swap inflow alert prototype and Telegram delivery adapter added; notifications require local bot pairing. Discovery is sampled, and automatic market-cap timing alerts await token creation timestamp coverage.",
       "url": "https://github.com/nightangelflowerwin-ops/gem-search/tree/feat/market-radar",
       "updated": "2026-10-06"
     },
