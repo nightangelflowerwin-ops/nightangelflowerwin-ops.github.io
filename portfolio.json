@@ -8,7 +8,7 @@
       "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
       "status": "Public Windows preview",
-      "description": "Extended h100envy's open-source Gem Search with market snapshots and token feeds, then built a standalone dark Windows app with live tokens, saved alerts, a watchlist, desktop notifications and system tray controls. Monitoring stops manually or at a selected deadline.",
+      "description": "Extended h100envy's open-source Gem Search with market snapshots and token feeds, then built a standalone dark Windows app with blue, red, yellow and green accents with live tokens, saved alerts, a watchlist, desktop notifications and system tray controls. Monitoring stops manually or at a selected deadline.",
       "skills": [
         "Python",
         "JavaScript",
@@ -20,7 +20,7 @@
         "WebSocket integration"
       ],
       "evidence": "AI-assisted implementation published with source and a Windows x64 executable. 69 Python tests and packaged executable checks passed for live tokens, watchlist, alert history, search, saved start/stop and native rendering. Live GeckoTerminal discovery returned 20 pools. Net swap inflow alerts use buys minus sells over five minutes; discovery is sampled and the early $40k market-cap rule awaits reliable token creation timestamps. Actual Windows toast delivery remains unverified. Scanner patch submitted upstream; native Brave scanner end-to-end testing remains pending. Market-cap display now includes a DexScreener fallback, provider name and sample time, verified against live tokens.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.4.1-desktop",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.4.2-desktop",
       "updated": "2026-10-06"
     },
     {
