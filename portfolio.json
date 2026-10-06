@@ -1,8 +1,28 @@
 {
   "name": "Stephen Shore",
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "scope": "Project work, prototypes, research and studies identified in the available workspace and collaboration history. Related versions are grouped. Entries are evidence of collaborative work, not certifications or claims of independent mastery.",
   "projects": [
+    {
+      "id": "gemsearch",
+      "title": "Gem Search Research Radar",
+      "category": "Data",
+      "status": "Working local prototype",
+      "description": "Extended the open-source Gem Search project by h100envy with Solana token watchlists, dated DexScreener market snapshots and a live Pump.fun creation and migration feed through PumpPortal. Added manual stop and optional time limits, plus a persistent browser scanner session fix.",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "API testing",
+        "Browser extensions",
+        "Automation",
+        "Regression testing",
+        "SQLite",
+        "WebSocket integration"
+      ],
+      "evidence": "AI-assisted implementation on the public feat/market-radar branch. 55 Python tests and 32 JavaScript tests passed; live checks confirmed market snapshots, PumpPortal events and manual stop. Scanner fix submitted upstream at https://github.com/h100envy/gem-search/pull/1; native Brave extension installation and end-to-end scanner testing remain pending. Runs locally; the public link is source code, not a hosted market terminal.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/tree/feat/market-radar",
+      "updated": "2026-10-06"
+    },
     {
       "id": "doomsol",
       "title": "DoomSol Agent",
@@ -436,6 +456,16 @@
   ],
   "skills": [
     {
+      "name": "Agent evaluation",
+      "status": "Used in project work",
+      "projects": [
+        "vizdoom",
+        "openhuman"
+      ],
+      "firstRecorded": "2026-10-05",
+      "updated": "2026-10-05"
+    },
+    {
       "name": "AI fundamentals",
       "status": "Studied",
       "projects": [
@@ -458,39 +488,32 @@
       "name": "API testing",
       "status": "Used in project work",
       "projects": [
-        "terac"
+        "terac",
+        "gemsearch"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
-    },
-    {
-      "name": "Agent evaluation",
-      "status": "Used in project work",
-      "projects": [
-        "vizdoom",
-        "openhuman"
-      ],
-      "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-06"
     },
     {
       "name": "Automation",
       "status": "Used in project work",
       "projects": [
         "host",
-        "openhuman"
+        "openhuman",
+        "gemsearch"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-06"
     },
     {
       "name": "Browser extensions",
       "status": "Used in project work",
       "projects": [
-        "voidbreaker"
+        "voidbreaker",
+        "gemsearch"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-06"
     },
     {
       "name": "Browser integration",
@@ -636,10 +659,11 @@
         "voidbreaker",
         "gravity",
         "rugdex",
-        "portfolio"
+        "portfolio",
+        "gemsearch"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-06"
     },
     {
       "name": "Model evaluation",
@@ -714,10 +738,11 @@
         "doomv9",
         "gps",
         "terac",
-        "connectome"
+        "connectome",
+        "gemsearch"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-06"
     },
     {
       "name": "QA planning",
@@ -741,10 +766,11 @@
       "name": "Regression testing",
       "status": "Used in project work",
       "projects": [
-        "doomv9"
+        "doomv9",
+        "gemsearch"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-06"
     },
     {
       "name": "Replay capture",
@@ -814,6 +840,15 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-05"
+    },
+    {
+      "name": "SQLite",
+      "status": "Used in project work",
+      "projects": [
+        "gemsearch"
+      ],
+      "firstRecorded": "2026-10-06",
+      "updated": "2026-10-06"
     },
     {
       "name": "Synthetic test design",
@@ -890,6 +925,15 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-05"
+    },
+    {
+      "name": "WebSocket integration",
+      "status": "Used in project work",
+      "projects": [
+        "gemsearch"
+      ],
+      "firstRecorded": "2026-10-06",
+      "updated": "2026-10-06"
     },
     {
       "name": "Workflow planning",
