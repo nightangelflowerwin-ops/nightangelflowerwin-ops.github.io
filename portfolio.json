@@ -119,7 +119,7 @@
       "title": "Gravity Falls Symbol Lab",
       "category": "Research",
       "status": "Live tool",
-      "description": "Offline glyph recognition, image segregation and historical source research, with a searchable Unicode catalog of 172,873 public assigned characters across 175 scripts. Catalogued scripts are not automatically identified in the image.",
+      "description": "Offline glyph recognition, image segregation and historical source research, with a searchable Unicode catalog of 172,873 public assigned characters across 175 scripts. Catalogued scripts are not automatically identified in the image. Includes positioned extraction across eighteen novel chapters and whole word rule experiments; no hidden cipher has been established.",
       "skills": [
         "HTML and CSS",
         "JavaScript",
@@ -127,11 +127,18 @@
         "Source research",
         "Browser testing",
         "Unicode data processing",
-        "Source integrity checks"
+        "Source integrity checks",
+        "Reproducible text analysis",
+        "Cryptographic literature review"
       ],
-      "evidence": "Public tool, 106 glyph atlas, Unicode source snapshot with SHA256 hashes and passing browser checks for code point, literal character and range lookup.",
+      "evidence": "Public tool, 106 glyph atlas, Unicode source snapshot with SHA256 hashes and passing browser checks for code point, literal character and range lookup. Public chapter extraction records 2,651 occurrences; whole word chapter tests record 90 transformations and four boundary selections. Published comparisons distinguish literary and cryptographic leads from verified decoding.",
       "url": "https://nightangelflowerwin-ops.github.io/gravityfallssymbollab/",
-      "updated": "2026-10-05"
+      "updated": "2026-10-06",
+      "evidenceLinks": [
+        "https://github.com/nightangelflowerwin-ops/gravityfallssymbollab/blob/main/reports/chapter-feature-extraction.md",
+        "https://github.com/nightangelflowerwin-ops/gravityfallssymbollab/blob/main/reports/chapter-whole-word-tests.md",
+        "https://github.com/nightangelflowerwin-ops/gravityfallssymbollab/blob/main/reports/ams-paper-comparison.md"
+      ]
     },
     {
       "id": "findingwealth",
@@ -535,6 +542,15 @@
       "updated": "2026-10-05"
     },
     {
+      "name": "Cryptographic literature review",
+      "status": "Studied",
+      "projects": [
+        "gravity"
+      ],
+      "firstRecorded": "2026-10-06",
+      "updated": "2026-10-06"
+    },
+    {
       "name": "CSV reporting",
       "status": "Used in project work",
       "projects": [
@@ -789,6 +805,15 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-05"
+    },
+    {
+      "name": "Reproducible text analysis",
+      "status": "Used in project work",
+      "projects": [
+        "gravity"
+      ],
+      "firstRecorded": "2026-10-06",
+      "updated": "2026-10-06"
     },
     {
       "name": "Research writing",
