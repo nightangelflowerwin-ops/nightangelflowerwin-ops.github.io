@@ -5,10 +5,10 @@
   "projects": [
     {
       "id": "gemsearch",
-      "title": "Gem Search Research Radar",
+      "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
-      "status": "Working local prototype",
-      "description": "Extended the open-source Gem Search project by h100envy with Solana token watchlists, dated DexScreener market snapshots and a live Pump.fun creation and migration feed through PumpPortal. Added manual stop and optional time limits, plus a persistent browser scanner session fix.",
+      "status": "Public Windows preview",
+      "description": "Extended h100envy's open-source Gem Search with market snapshots and token feeds, then built a standalone dark Windows app with live tokens, saved alerts, a watchlist, desktop notifications and system tray controls. Monitoring stops manually or at a selected deadline.",
       "skills": [
         "Python",
         "JavaScript",
@@ -19,8 +19,8 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted implementation on the public feat/market-radar branch. 65 Python tests and 32 JavaScript tests passed; live checks confirmed market snapshots, PumpPortal events and manual stop. Scanner fix submitted upstream at https://github.com/h100envy/gem-search/pull/1; native Brave extension installation and end-to-end scanner testing remain pending. Runs locally; the public link is source code, not a hosted market terminal. Net swap inflow alert prototype and Telegram delivery adapter added; notifications require local bot pairing. Discovery is sampled, and automatic market-cap timing alerts await token creation timestamp coverage.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/tree/feat/market-radar",
+      "evidence": "AI-assisted implementation published with source and a Windows x64 executable. 67 Python tests and packaged executable checks passed for live tokens, watchlist, alert history, search, saved start/stop and native rendering. Live GeckoTerminal discovery returned 20 pools. Net swap inflow alerts use buys minus sells over five minutes; discovery is sampled and the early $40k market-cap rule awaits reliable token creation timestamps. Actual Windows toast delivery remains unverified. Scanner patch submitted upstream; native Brave scanner end-to-end testing remains pending.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.4.0-desktop",
       "updated": "2026-10-06"
     },
     {
