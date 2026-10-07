@@ -8,7 +8,7 @@
       "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
       "status": "Public Windows setup preview",
-      "description": "Extended the open-source Gem Search into a Windows desktop monitor with a white workspace and orange, blue, red, green and black accents. Added separate encrypted Cielo and Solscan connections, a Cielo feed request viewer and a searchable wallet directory with local imports. Solscan supplies token market data; blockchain reads verify mint details.",
+      "description": "A Windows desktop workspace for reviewing tokens, managing watchlists and browsing wallet activity. Includes search, saved records, notification controls and system tray access.",
       "skills": [
         "Python",
         "JavaScript",
@@ -19,8 +19,8 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted public source and setup preview. Three Cielo request tests and native desktop smoke checks passed. Test credentials validated encrypted provider isolation and background feed response/error handling. Existing Solscan credentials are retained locally. Live Cielo access awaits the user saving their API key; no complete Cielo KOL directory or trade-alert coverage is claimed. The API documentation lists free access for the feed and paid plans for user-list retrieval. The older Kolscan list remains a labeled 50-wallet snapshot. Five-minute net inflow alerts remain unfinished.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.7-account-workflow",
+      "evidence": "Desktop preview with a tested local interface. Development continues; complete live tracking and alert coverage are not yet verified.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases",
       "updated": "2026-10-07"
     },
     {
