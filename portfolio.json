@@ -19,8 +19,8 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted public source and Windows preview. 87 Python tests passed. Live free-key validation returned fresh Solscan prices and market caps for three saved Solana tokens; all three mints passed independent confirmed blockchain checks. Free access refreshes saved and watched tokens. Automatic new-token discovery is unavailable on the tested free tier; five-minute net inflow alerts remain unfinished. Price and market cap are Solscan data, not independently proved by mint reads.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.2-free-api",
+      "evidence": "AI-assisted public source and Windows preview. 89 Python tests passed. Live free-key validation returned fresh Solscan prices and market caps for three saved Solana tokens; all three mints passed independent confirmed blockchain checks. Subsequent free metadata requests hit rate limits. Free mode now conservatively rotates one watched or saved token per minute and retains successful results. Automatic discovery is unavailable on the tested free tier; five-minute net inflow alerts remain unfinished. Price and market cap are Solscan data, not independently proved by mint reads.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.3-free-api",
       "updated": "2026-10-06"
     },
     {
