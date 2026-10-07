@@ -8,7 +8,7 @@
       "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
       "status": "Public Windows setup preview",
-      "description": "A Windows desktop workspace for reviewing tokens, managing watchlists and browsing wallet activity. Includes search, saved records, notification controls and system tray access.",
+      "description": "A Windows desktop workspace for reviewing tokens, managing watchlists and browsing wallet activity. Includes ranked lists, filters, notifications and a read-only MCP connection for compatible assistants.",
       "skills": [
         "Python",
         "JavaScript",
@@ -19,7 +19,7 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "Desktop preview with a tested local interface. Development continues; complete live tracking and alert coverage are not yet verified.",
+      "evidence": "Desktop preview with a tested local interface and packaged MCP connection. Five read-only tools passed handshake and data-access checks. Available as a downloadable local integration; no hosted service is included. Complete live tracking and alert coverage remain under development.",
       "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases",
       "updated": "2026-10-07"
     },
