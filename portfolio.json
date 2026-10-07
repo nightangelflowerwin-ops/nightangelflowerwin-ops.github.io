@@ -1,6 +1,6 @@
 {
   "name": "Stephen Shore",
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "scope": "Project work, prototypes, research and studies identified in the available workspace and collaboration history. Related versions are grouped. Entries are evidence of collaborative work, not certifications or claims of independent mastery.",
   "projects": [
     {
@@ -8,7 +8,7 @@
       "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
       "status": "Public Windows preview",
-      "description": "Extended the open-source Gem Search into a dark Windows desktop token monitor with Google color accents, fitted pages, watchlists, alert history and tray controls. Added a searchable Kolscan wallet directory with local CSV and JSON list imports. Active token data comes exclusively from Solscan; direct Solana blockchain reads form the independent mint verification layer.",
+      "description": "Extended the open-source Gem Search into a dark Windows desktop token monitor. The redesigned workspace uses a compact header, left navigation, larger headings, fitted tables and restrained Google color accents. Includes a searchable Kolscan wallet directory and local list imports. Token prices and market caps come from Solscan, with independent blockchain mint verification.",
       "skills": [
         "Python",
         "JavaScript",
@@ -19,9 +19,9 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted public source and Windows preview. Includes a dated snapshot of 50 Solana wallets from Kolscan, with search, copy wallet, account links, fitted pages and persistent imports. Three directory tests, twelve Solscan monitor tests and seven chain tests passed. Source and packaged desktop smoke checks covered KOL search, copy and paging; UI import checks verified restart persistence and rejection without data loss. The KOL list is not a complete registry and live KOL trade alerts are not enabled. Free token mode conservatively refreshes one watched or saved Solana token per minute. Automatic token discovery is unavailable on the tested free tier; five-minute net inflow alerts remain unfinished. Prices and market caps are Solscan data, not independently proved by mint reads.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.4-kol-directory",
-      "updated": "2026-10-06"
+      "evidence": "AI-assisted public source and Windows preview. Redesigned layout verified across six navigation destinations at 1000 x 620. Desktop smoke checks passed; a responsiveness check with 2,000 records and database contention measured a maximum 32 ms UI heartbeat gap. Includes 50 dated Kolscan wallet records, copy and account links, plus persistent CSV and JSON imports. Live KOL trade tracking and five-minute inflow alerts remain unfinished. Free Solscan access constrains refresh coverage. Prices and market caps are provider data, not independently proved by mint reads.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.5-workspace",
+      "updated": "2026-10-07"
     },
     {
       "id": "doomsol",
