@@ -7,8 +7,8 @@
       "id": "gemsearch",
       "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
-      "status": "Public Windows preview",
-      "description": "Extended the open-source Gem Search into a dark Windows desktop token monitor. The redesigned workspace uses a compact header, left navigation, larger headings, fitted tables and restrained Google color accents. Includes a searchable Kolscan wallet directory and local list imports. Token prices and market caps come from Solscan, with independent blockchain mint verification.",
+      "status": "Public Windows setup preview",
+      "description": "Extended the open-source Gem Search into a Windows desktop monitor with a white workspace and orange, blue, red, green and black accents. Added separate encrypted Cielo and Solscan connections, a Cielo feed request viewer and a searchable wallet directory with local imports. Solscan supplies token market data; blockchain reads verify mint details.",
       "skills": [
         "Python",
         "JavaScript",
@@ -19,8 +19,8 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted public source and Windows preview. Redesigned layout verified across six navigation destinations at 1000 x 620. Desktop smoke checks passed; a responsiveness check with 2,000 records and database contention measured a maximum 32 ms UI heartbeat gap. Includes 50 dated Kolscan wallet records, copy and account links, plus persistent CSV and JSON imports. Live KOL trade tracking and five-minute inflow alerts remain unfinished. Free Solscan access constrains refresh coverage. Prices and market caps are provider data, not independently proved by mint reads.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.5-workspace",
+      "evidence": "AI-assisted public source and setup preview. Three Cielo request tests and native desktop smoke checks passed. Test credentials validated encrypted provider isolation and background feed response/error handling. Existing Solscan credentials are retained locally. Live Cielo access awaits the user saving their API key; no complete Cielo KOL directory or trade-alert coverage is claimed. The API documentation lists free access for the feed and paid plans for user-list retrieval. The older Kolscan list remains a labeled 50-wallet snapshot. Five-minute net inflow alerts remain unfinished.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.6-cielo-setup",
       "updated": "2026-10-07"
     },
     {
