@@ -19,8 +19,8 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted public source and Windows preview. 85 Python tests passed. Solscan API access must be configured locally. Price and market cap are Solscan data, not independently verified by mint reads. Five-minute net inflow alerts remain pending live Solscan swap validation. Solana only. Existing history is retained.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.0-solscan",
+      "evidence": "AI-assisted public source and Windows preview. 85 Python tests passed. Live scanning requires Solscan API access and is blocked on the current machine because no key is configured. Saved tokens restores historical records with original provider labels. Connection and responsiveness checks passed. Price and market cap are Solscan data, not independently verified by mint reads. Five-minute net inflow alerts remain pending live Solscan swap validation. Solana only.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.1-solscan",
       "updated": "2026-10-06"
     },
     {
