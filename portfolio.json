@@ -8,7 +8,7 @@
       "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
       "status": "Public Windows preview",
-      "description": "Extended h100envy's open-source Gem Search with market snapshots and token feeds, then built a standalone dark Windows app with blue, red, yellow and green accents with live tokens, saved alerts, a watchlist, desktop notifications and system tray controls. Monitoring stops manually or at a selected deadline.",
+      "description": "Extended the open-source Gem Search into a dark Windows desktop token monitor with Google color accents, fitted pages, watchlists, alert history and tray controls. Active token data comes exclusively from Solscan; direct Solana blockchain reads form the independent mint verification layer.",
       "skills": [
         "Python",
         "JavaScript",
@@ -19,8 +19,8 @@
         "SQLite",
         "WebSocket integration"
       ],
-      "evidence": "AI-assisted public source and Windows x64 preview. 77 Python tests passed. Packaged responsiveness checks use 2,000 tokens and database contention. Solana minted supply is read at confirmed chain slots; a separate supply-times-pool-price valuation exposes its price source and method. Prices remain indexed DEX quotes and circulating supply is not verified. Stale samples are labeled, saved tokens refresh in rotating batches, and fitted table pages replace scrolling. Solscan comparison links are included. Scanner patch submitted upstream; native Brave scanner end-to-end testing remains pending.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.4.4-desktop",
+      "evidence": "AI-assisted public source and Windows preview. 85 Python tests passed. Solscan API access must be configured locally. Price and market cap are Solscan data, not independently verified by mint reads. Five-minute net inflow alerts remain pending live Solscan swap validation. Solana only. Existing history is retained.",
+      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases/tag/v0.5.0-solscan",
       "updated": "2026-10-06"
     },
     {
