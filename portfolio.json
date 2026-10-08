@@ -1,6 +1,6 @@
 {
   "name": "Stephen Shore",
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "scope": "Project work, prototypes, research and studies identified in the available workspace and collaboration history. Related versions are grouped. Entries are evidence of collaborative work, not certifications or claims of independent mastery.",
   "projects": [
     {
@@ -8,7 +8,7 @@
       "title": "Gem Search Desktop Token Monitor",
       "category": "Data",
       "status": "Public Windows setup preview",
-      "description": "A Windows desktop workspace for reviewing tokens, managing watchlists and browsing wallet activity. Includes ranked lists, filters, notifications and a read-only MCP connection for compatible assistants.",
+      "description": "A Windows desktop preview for token research, watchlists, ranked filters and saved records, with five read-only MCP tools for compatible assistants. Built on h100envy/gem-search; live activity and some alerts remain incomplete.",
       "skills": [
         "Python",
         "JavaScript",
@@ -17,11 +17,17 @@
         "Automation",
         "Regression testing",
         "SQLite",
-        "WebSocket integration"
+        "WebSocket integration",
+        "MCP integration"
       ],
-      "evidence": "Desktop preview with a tested local interface and packaged MCP connection. Five read-only tools passed handshake and data-access checks. Available as a downloadable local integration; no hosted service is included. Complete live tracking and alert coverage remain under development.",
-      "url": "https://github.com/nightangelflowerwin-ops/gem-search/releases",
-      "updated": "2026-10-07"
+      "evidence": "Desktop preview with a tested local interface and packaged MCP connection. Five read-only tools passed handshake and data-access checks. Available as a downloadable local integration; no hosted service is included. Complete live tracking and alert coverage remain under development. Current public desktop and MCP guides document saved-data access over standard input and output, with no network listener. Public v0.9.8 release is marked prerelease; this review did not independently validate market accuracy.",
+      "url": "https://github.com/nightangelflowerwin-ops/GemSearch/releases",
+      "updated": "2026-10-08",
+      "evidenceLinks": [
+        "https://github.com/nightangelflowerwin-ops/GemSearch/blob/main/docs/DESKTOP.md",
+        "https://github.com/nightangelflowerwin-ops/GemSearch/blob/main/docs/MCP.md",
+        "https://github.com/nightangelflowerwin-ops/GemSearch/releases/tag/v0.9.8-active-pool-preview"
+      ]
     },
     {
       "id": "doomsol",
@@ -680,6 +686,15 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-06"
+    },
+    {
+      "name": "MCP integration",
+      "status": "Used in project work",
+      "projects": [
+        "gemsearch"
+      ],
+      "firstRecorded": "2026-10-08",
+      "updated": "2026-10-08"
     },
     {
       "name": "Model evaluation",
