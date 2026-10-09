@@ -1,6 +1,6 @@
 {
   "name": "Stephen Shore",
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "scope": "Project work, prototypes, research and studies identified in the available workspace and collaboration history. Related versions are grouped. Entries are evidence of collaborative work, not certifications or claims of independent mastery.",
   "projects": [
     {
@@ -465,6 +465,44 @@
       "evidence": "Public fork and upstream attribution.",
       "url": "https://github.com/nightangelflowerwin-ops/generativeaiforbeginners",
       "updated": "2026-10-05"
+    },
+    {
+      "id": "linkstrike",
+      "title": "LinkStrike Browser Arena",
+      "category": "Games",
+      "status": "Prototype without public hosting",
+      "description": "Original browser arena shooter with invite rooms, practice bots and server controlled movement and scoring. X embed preparation is documented; public hosting and real X compatibility remain unverified.",
+      "skills": [
+        "JavaScript",
+        "Three.js",
+        "WebSocket integration",
+        "Game prototyping"
+      ],
+      "evidence": "Public source and README describe the Node server, client prediction, one map and in-memory rooms. Capacity limits are not load tested; mobile controls and production anti-cheat are absent.",
+      "url": "https://github.com/nightangelflowerwin-ops/LinkStrike",
+      "updated": "2026-10-09"
+    },
+    {
+      "id": "privacygateway",
+      "title": "Support Privacy Gateway Studio",
+      "category": "Data",
+      "status": "Prototype with fictional fixture validation",
+      "description": "Local TypeScript and Rust studio for reviewing detected personal information in text, PDFs and screenshots before export. Includes browser NER, regional rules, OCR and raster redaction; detection accuracy remains limited.",
+      "skills": [
+        "Python",
+        "TypeScript",
+        "Rust",
+        "OCR workflows",
+        "PII redaction",
+        "Browser testing",
+        "Regression testing"
+      ],
+      "evidence": "Public verification report records fictional fixture checks for scoped restoration, review approval and exported PDF structure. Rules deliberately miss some entities; no general anonymization or compliance guarantee. Gateway concept credits Othmane Menkor; upstream Python work retains attribution.",
+      "url": "https://github.com/nightangelflowerwin-ops/SupportPrivacyGateway",
+      "evidenceLinks": [
+        "https://github.com/nightangelflowerwin-ops/SupportPrivacyGateway/blob/main/docs/POLYGLOT_VERIFICATION.md"
+      ],
+      "updated": "2026-10-09"
     }
   ],
   "skills": [
@@ -542,10 +580,11 @@
       "status": "Used in project work",
       "projects": [
         "gravity",
-        "portfolio"
+        "portfolio",
+        "privacygateway"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-09"
     },
     {
       "name": "Cryptographic literature review",
@@ -626,10 +665,11 @@
       "name": "Game prototyping",
       "status": "Used in project work",
       "projects": [
-        "blacksite"
+        "blacksite",
+        "linkstrike"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-09"
     },
     {
       "name": "GitHub Pages",
@@ -682,10 +722,11 @@
         "gravity",
         "rugdex",
         "portfolio",
-        "gemsearch"
+        "gemsearch",
+        "linkstrike"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-06"
+      "updated": "2026-10-09"
     },
     {
       "name": "MCP integration",
@@ -713,6 +754,24 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-05"
+    },
+    {
+      "name": "OCR workflows",
+      "status": "Used in project work",
+      "projects": [
+        "privacygateway"
+      ],
+      "firstRecorded": "2026-10-09",
+      "updated": "2026-10-09"
+    },
+    {
+      "name": "PII redaction",
+      "status": "Used in project work",
+      "projects": [
+        "privacygateway"
+      ],
+      "firstRecorded": "2026-10-09",
+      "updated": "2026-10-09"
     },
     {
       "name": "Power BI",
@@ -770,10 +829,11 @@
         "gps",
         "terac",
         "connectome",
-        "gemsearch"
+        "gemsearch",
+        "privacygateway"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-06"
+      "updated": "2026-10-09"
     },
     {
       "name": "QA planning",
@@ -798,10 +858,11 @@
       "status": "Used in project work",
       "projects": [
         "doomv9",
-        "gemsearch"
+        "gemsearch",
+        "privacygateway"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-06"
+      "updated": "2026-10-09"
     },
     {
       "name": "Replay capture",
@@ -849,6 +910,15 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-05"
+    },
+    {
+      "name": "Rust",
+      "status": "Used in project work",
+      "projects": [
+        "privacygateway"
+      ],
+      "firstRecorded": "2026-10-09",
+      "updated": "2026-10-09"
     },
     {
       "name": "Scientific data review",
@@ -916,10 +986,11 @@
       "name": "Three.js",
       "status": "Used in project work",
       "projects": [
-        "blacksite"
+        "blacksite",
+        "linkstrike"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-09"
     },
     {
       "name": "Transcript analysis",
@@ -929,6 +1000,15 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-05"
+    },
+    {
+      "name": "TypeScript",
+      "status": "Used in project work",
+      "projects": [
+        "privacygateway"
+      ],
+      "firstRecorded": "2026-10-09",
+      "updated": "2026-10-09"
     },
     {
       "name": "UI design",
@@ -970,10 +1050,11 @@
       "name": "WebSocket integration",
       "status": "Used in project work",
       "projects": [
-        "gemsearch"
+        "gemsearch",
+        "linkstrike"
       ],
       "firstRecorded": "2026-10-06",
-      "updated": "2026-10-06"
+      "updated": "2026-10-09"
     },
     {
       "name": "Workflow planning",
