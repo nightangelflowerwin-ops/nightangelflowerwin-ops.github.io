@@ -1,6 +1,6 @@
 {
   "name": "Stephen Shore",
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "scope": "Project work, prototypes, research and studies identified in the available workspace and collaboration history. Related versions are grouped. Entries are evidence of collaborative work, not certifications or claims of independent mastery.",
   "projects": [
     {
@@ -503,6 +503,26 @@
         "https://github.com/nightangelflowerwin-ops/SupportPrivacyGateway/blob/main/docs/POLYGLOT_VERIFICATION.md"
       ],
       "updated": "2026-10-09"
+    },
+    {
+      "id": "hooklens",
+      "title": "Hook Lens Permission Inspector",
+      "category": "Data",
+      "status": "Public CLI prototype",
+      "description": "Explains the fourteen permission bits encoded in a Uniswap v4 hook address and checks callback dependencies. Runs without a wallet or RPC; it does not verify deployed code, ownership or contract safety.",
+      "skills": [
+        "JavaScript",
+        "Bitmask analysis",
+        "Data validation",
+        "Regression testing"
+      ],
+      "evidence": "Public JavaScript implementation validates address syntax and decodes low address bits. Published tests enumerate 16,384 masks under both dynamic fee settings, plus zero and malformed addresses. This portfolio review inspected the code and test definitions; it did not independently verify a deployed contract.",
+      "url": "https://github.com/nightangelflowerwin-ops/hooklens",
+      "evidenceLinks": [
+        "https://github.com/nightangelflowerwin-ops/hooklens/blob/main/permissions.js",
+        "https://github.com/nightangelflowerwin-ops/hooklens/blob/main/permissions.test.js"
+      ],
+      "updated": "2026-10-10"
     }
   ],
   "skills": [
@@ -555,6 +575,15 @@
       ],
       "firstRecorded": "2026-10-05",
       "updated": "2026-10-06"
+    },
+    {
+      "name": "Bitmask analysis",
+      "status": "Used in project work",
+      "projects": [
+        "hooklens"
+      ],
+      "firstRecorded": "2026-10-10",
+      "updated": "2026-10-10"
     },
     {
       "name": "Browser extensions",
@@ -637,10 +666,11 @@
       "status": "Used in project work",
       "projects": [
         "gps",
-        "flywire"
+        "flywire",
+        "hooklens"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-10"
     },
     {
       "name": "Document QA",
@@ -723,10 +753,11 @@
         "rugdex",
         "portfolio",
         "gemsearch",
-        "linkstrike"
+        "linkstrike",
+        "hooklens"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-09"
+      "updated": "2026-10-10"
     },
     {
       "name": "MCP integration",
@@ -859,10 +890,11 @@
       "projects": [
         "doomv9",
         "gemsearch",
-        "privacygateway"
+        "privacygateway",
+        "hooklens"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-09"
+      "updated": "2026-10-10"
     },
     {
       "name": "Replay capture",
