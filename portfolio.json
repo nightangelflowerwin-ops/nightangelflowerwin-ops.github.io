@@ -1,6 +1,6 @@
 {
   "name": "Stephen Shore",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "scope": "Project work, prototypes, research and studies identified in the available workspace and collaboration history. Related versions are grouped. Entries are evidence of collaborative work, not certifications or claims of independent mastery.",
   "projects": [
     {
@@ -34,16 +34,24 @@
       "title": "DoomSol Agent",
       "category": "AI",
       "status": "Experimental",
-      "description": "Visual perception, replay capture, imitation learning and browser connected agent experiments.",
+      "description": "Visual perception, replay capture and imitation learning experiments. Public training corpus contains 159,890 examples with provenance and preserved splits. Checkpoint continuity was inspected; full training, holdout evaluation and gameplay improvement remain unfinished.",
       "skills": [
         "Python",
         "Data annotation",
         "Model evaluation",
-        "Browser integration"
+        "Browser integration",
+        "Data validation",
+        "Reproducibility",
+        "Process monitoring"
       ],
-      "evidence": "Public repository README and local DoomSol v9 regression suite.",
+      "evidence": "Public training data release and exported corpus validation report document counts, image hashes and split checks. October 11 recovery inspection documents a readable checkpoint and advancing training, not a completed restart or improved gameplay. Historical labels include unsuccessful actions and privileged engine observations.",
       "url": "https://github.com/nightangelflowerwin-ops/doomsolagent",
-      "updated": "2026-10-05"
+      "updated": "2026-10-11",
+      "evidenceLinks": [
+        "https://github.com/nightangelflowerwin-ops/doomsolagent/releases/tag/training-data-v1",
+        "https://github.com/nightangelflowerwin-ops/doomsolagent/blob/main/datasets/verification/public-dataset-validation.json",
+        "https://github.com/nightangelflowerwin-ops/doomsolagent/blob/main/training/recovery.md"
+      ]
     },
     {
       "id": "vizdoom",
@@ -667,10 +675,11 @@
       "projects": [
         "gps",
         "flywire",
-        "hooklens"
+        "hooklens",
+        "doomsol"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-10"
+      "updated": "2026-10-11"
     },
     {
       "name": "Document QA",
@@ -836,10 +845,11 @@
       "name": "Process monitoring",
       "status": "Used in project work",
       "projects": [
-        "host"
+        "host",
+        "doomsol"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-11"
     },
     {
       "name": "Project planning",
@@ -909,10 +919,11 @@
       "name": "Reproducibility",
       "status": "Used in project work",
       "projects": [
-        "spiritrules"
+        "spiritrules",
+        "doomsol"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-11"
     },
     {
       "name": "Reproducible text analysis",
