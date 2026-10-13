@@ -1,6 +1,6 @@
 {
   "name": "Stephen Shore",
-  "updated": "2026-10-11",
+  "updated": "2026-10-13",
   "scope": "Project work, prototypes, research and studies identified in the available workspace and collaboration history. Related versions are grouped. Entries are evidence of collaborative work, not certifications or claims of independent mastery.",
   "projects": [
     {
@@ -531,6 +531,26 @@
         "https://github.com/nightangelflowerwin-ops/hooklens/blob/main/permissions.test.js"
       ],
       "updated": "2026-10-10"
+    },
+    {
+      "id": "dcgdoom",
+      "title": "Doom Browser Play and Windows Setup",
+      "category": "Games",
+      "status": "Public play demo and local setup prototype",
+      "description": "A fork of CrocSwap’s dcg doom project with a hosted FreeDoom browser build and a Windows setup guide. Local movement and firing were verified using an existing DoomSol browser engine build. The engine assets are not included in the Windows fork, and the blockchain demo is a separate path.",
+      "skills": [
+        "Browser testing",
+        "JavaScript",
+        "PowerShell"
+      ],
+      "evidence": "Public browser play page, Windows launcher and setup guide. Gameplay was verified locally using an existing engine build; a fresh clone does not include the engine assets, mobile support is unverified, and the browser game is separate from blockchain execution.",
+      "url": "https://nightangelflowerwin-ops.github.io/dcg-doom/",
+      "updated": "2026-10-13",
+      "evidenceLinks": [
+        "https://github.com/nightangelflowerwin-ops/dcg-doom/tree/windows-local",
+        "https://github.com/nightangelflowerwin-ops/dcg-doom/blob/windows-local/WINDOWS-LOCAL.md",
+        "https://github.com/nightangelflowerwin-ops/dcg-doom/tree/browser-play"
+      ]
     }
   ],
   "skills": [
@@ -618,10 +638,11 @@
       "projects": [
         "gravity",
         "portfolio",
-        "privacygateway"
+        "privacygateway",
+        "dcgdoom"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-09"
+      "updated": "2026-10-13"
     },
     {
       "name": "Cryptographic literature review",
@@ -763,10 +784,11 @@
         "portfolio",
         "gemsearch",
         "linkstrike",
-        "hooklens"
+        "hooklens",
+        "dcgdoom"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-10"
+      "updated": "2026-10-13"
     },
     {
       "name": "MCP integration",
@@ -827,10 +849,11 @@
       "status": "Used in project work",
       "projects": [
         "host",
-        "openhuman"
+        "openhuman",
+        "dcgdoom"
       ],
       "firstRecorded": "2026-10-05",
-      "updated": "2026-10-05"
+      "updated": "2026-10-13"
     },
     {
       "name": "Presentation design",

@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "projects": 33,
+  "projects": 34,
   "skills": 58,
   "checks": [
     "Stephen Shore identity",
@@ -17,6 +17,7 @@
     "no browser errors",
     "favicon declarations",
     "header logo loads",
-    "DoomSol public corpus milestone and unfinished gameplay status"
+    "DoomSol public corpus milestone and unfinished gameplay status",
+    "Doom browser play and Windows setup evidence"
   ]
 }
